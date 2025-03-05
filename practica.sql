@@ -9,5 +9,5 @@ CREATE TABLE Personal(
   apellido_materno    VARCHAR(50) NOT NULL,
   edad                VARCHAR(2) NOT NULL,
   telefono            VARCHAR(20),
-  email               VARCHAR(100)
+  email               VARCHAR(100),
 );
