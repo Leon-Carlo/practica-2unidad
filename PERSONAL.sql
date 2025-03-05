@@ -1,8 +1,8 @@
-CREATE SCHEMA IF NOT EXISTS BD_Proveedores;
-USE BD_Proveedores;
+CREATE SCHEMA IF NOT EXISTS PERSONAL;
+USE PERSONAL;
 
-DROP TABLE IF EXISTS Proveedores;
-CREATE TABLE Proveedores (
+DROP TABLE IF EXISTS PERSONAL;
+CREATE TABLE PERSONAL (
   nombre               VARCHAR(50) NOT NULL,
   apellido paterno              VARCHAR(50) NOT NULL,
   apellido materno            VARCHAR(50) NOT NULL,
